@@ -8,7 +8,7 @@ import { Button } from 'react-native';
 const DashboardScreen = () => {
   // Data grafik untuk dijadikan contoh
   const dataGrafik = {
-    labels: ['Jan', 'Feb', 'Mar'],
+    labels: ['Jan', 'Mar'],
     datasets: [
       {
         data: [20, 45, 28],
@@ -16,7 +16,7 @@ const DashboardScreen = () => {
     ],
   };
 
-  // Data berita untuk dijadikan contoh
+  
   const berita = [
     {
       title: 'Lorem ipsum dolor sit amet',
